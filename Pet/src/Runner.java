@@ -15,6 +15,7 @@ public class Runner{
         String username = ok.nextLine();
         System.out.println("Enter animal age: ");
         int userage = ok.nextInt();
+        ok.close();
         //user's pet
         Pet userPet = new Pet(username, usertype, userage); //(name, type, age)
         System.out.println(userPet.toString());
