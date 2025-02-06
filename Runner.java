@@ -1,4 +1,4 @@
-public class PetTester{
+public class Runner{
     public static void main(String[] args){
         //default pet
         Pet myPet = new Pet();
